@@ -6,7 +6,7 @@ import java.util.*;  // Date class
 
 public class TimeServer {
   public static void main (String args[]) throws IOException {
-    int port = 8080;
+    int port = 21352;
     ServerSocket server = new ServerSocket(port);
 
     while (true) {

@@ -5,7 +5,7 @@ import java.io.*;
 
 public class TimeClient {
   public static void main (String args[]) throws IOException {
-    Socket server = new Socket("localhhost", 8080);
+    Socket server = new Socket("localhost", 21352);
     // Socket server = new Socket("pc90.mcs.le.ac.uk", 1236);
     // Socket server = new Socket("serverDNS", 1236);
     System.out.println("Connected to " + server.getInetAddress());
